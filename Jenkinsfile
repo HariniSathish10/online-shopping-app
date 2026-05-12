@@ -3,14 +3,6 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Clone Code') {
-
-            steps {
-                git 'https://github.com/HariniSathish10/online-shopping-app.git'
-            }
-        }
-
         stage('Build Application') {
 
             steps {
