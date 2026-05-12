@@ -7,7 +7,7 @@ pipeline {
         stage('Clone Code') {
 
             steps {
-                git 'https://github.com/HariniSathish10/online-shopping-app.git'
+                git https://github.com/HariniSathish10/online-shopping-app.git
             }
         }
 
