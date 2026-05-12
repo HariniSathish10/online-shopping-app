@@ -8,6 +8,6 @@ import
 @SpringBootApplication
   public class OnlineShoppingappApplication {
     public static void main(String[] args) {
-      SpringApplication.run(OnlineShoppingAppApplication.class,args);
+      SpringApplication.run(OnlineShoppingappApplication.class,args);
     }
   }
